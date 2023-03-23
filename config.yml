@@ -1,0 +1,37 @@
+#       _                  ____                _ 
+#      / \  _   _ _ __ ___|  _ \ _ __ ___   __| |
+#     / _ \| | | | '__/ _ \ |_) | '__/ _ \ / _` |
+#    / ___ \ |_| | | |  __/  __/| | | (_) | (_| |
+#   /_/   \_\__,_|_|  \___|_|   |_|  \___/ \__,_|
+#                                                 
+
+global:
+  temps: 60
+  message60:  # message à 60s
+    ok: true
+    message: "§4Clear lag dans 1 min !!!"
+  message30: # message à 30s
+    ok: true
+    message: "§4Clear lag dans 30 secondes !!!" 
+  message10: # message à 10s
+    ok: true
+    message: "§4Clear lag dans 10 secondes !!!" 
+  message5: # message à 5s
+    ok: false
+    message: ""
+  message4: # message à 4s
+    ok: false
+    message: ""
+  message3: # message à 3s
+    ok: false
+    message: ""
+  message2: # message à 2s
+    ok: false
+    message: ""
+  message1: # message à 1s
+    ok: false
+    message: ""
+  message_clearlag: # message au moment du clear lag
+    ok: true # si true le message s'affiche et si false il ne s'affiche pas
+    message: "§4Le clear lag à supprimé %QUANTITE% §4items au sol !!!"  
+    # format : "message %QUANTITE% message" <-- %QUANTITE% est la variable qui contient le nombre d'items supprimés

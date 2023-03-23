@@ -1,0 +1,26 @@
+
+#       _                  ____                _ 
+#      / \  _   _ _ __ ___|  _ \ _ __ ___   __| |
+#     / _ \| | | | '__/ _ \ |_) | '__/ _ \ / _` |
+#    / ___ \ |_| | | |  __/  __/| | | (_) | (_| |
+#   /_/   \_\__,_|_|  \___|_|   |_|  \___/ \__,_|
+#                                                 
+
+name: Coffre_clear_lag
+version: 1.0
+author: AureProd
+main: fr.aureprod.clearlag.Main
+api-version: 1.13
+commands:
+  start_clearlag:
+    description: §6Ceci est la commande pour démarer le clear lag > §4start_clearlag
+    permission: clearlag.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+  stop_clearlag:
+    description: §6Ceci est la commande pour arrêter le clear lag > §4stop_clearlag
+    permission: clearlag.use
+    permission-message: §cVous ne pouvez pas utiliser cette commande
+permissions:
+  clearlag.use:
+    default: op
+    description: §2Autorise utilisation de la commande §4start_clearlag et §4stop_clearlag
